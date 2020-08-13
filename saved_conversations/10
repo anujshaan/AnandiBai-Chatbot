@@ -1,0 +1,29 @@
+bot : Hi There! I am a medical chatbot. You can begin conversation by typing in a message and pressing enter.
+user : my name is anuj
+bot : Hello! your name has been stored. What is your age?
+user : my age is 23
+bot : okay. your age has been stored. Which city do you live in?
+user : i live in ranchi
+bot : okay location stored. Welcome to medical portal. Say Hi!
+user : hi
+bot : Hello. How are you feeling today?
+user : i have headache
+bot : - what kind of headache do you have : 1. Migrane headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional;
+user : tension headache
+bot : - symptom noted. The cause of tension headaches is unclear, but stress, anxiety, and depression are common triggers. would you like to talk to a doctor?
+user : what is coronavirus?
+bot : Coronaviruses are a type of virus. There are many different kinds, and some cause disease. A newly identified coronavirus, SARS-CoV-2, has caused a worldwide pandemic of respiratory illness, called COVID-19.
+user : symptoms of covid-19
+bot : Cough, Fever or chills, Shortness of breath or difficulty breathing, Muscle or body aches, Sore throat, New loss of taste or smell, Diarrhea, Headache, Fatigue, Nausea or vomiting, Congestion or runny nose
+user : prevention of coronavirus
+bot : Clean your hands often. Use soap and water, or an alcohol-based hand rub.
+user : i need a doctor
+bot : - all doctors are attending patients. we shall revert to your request soon. Do you want to book an appointment?
+user : yes
+bot : okay. your age has been stored. Which city do you live in?
+user : i live in ranchi
+bot : okay location stored. Welcome to medical portal. Say Hi!
+user : bye
+bot : - Bye. Nice talking to you
+user : symptoms of corona
+bot : Cough, Fever or chills, Shortness of breath or difficulty breathing, Muscle or body aches, Sore throat, New loss of taste or smell, Diarrhea, Headache, Fatigue, Nausea or vomiting, Congestion or runny nose

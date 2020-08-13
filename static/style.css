@@ -1,0 +1,131 @@
+body {
+    font-family: Garamond;
+    width: 100%;
+    background: #f7f8fc;
+    margin: 0px;
+    padding : 0px;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+header
+{
+  width : 100%;
+  background: #f2f3f7;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header > .profile
+{
+  display: flex;
+  align-items: center;
+  font-family: calibri;
+  font-weight: 500;
+  color : #242f42;
+}
+.dp
+{
+  margin: 0px 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-image: url('bot.png');
+  background-size: 100% 100%;
+  background-position: center;
+}
+#chatbox {
+    width: 100%;
+    padding : 20px;
+    box-sizing: border-box;
+    height: 68vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#userInput {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#textInput {
+    width: 100%;
+    border: none;
+    padding : 0px 20px;
+    border-radius: 10px 0px 0px 10px;
+
+    height : 50px;
+    font-family: monospace;
+    font-size: 17px;
+
+    -webkit-box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+-moz-box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+}
+
+#buttonInput {
+    color : white;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-family: monospace;
+    font-size: 17px;
+    height : 50px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+    background: #2f80ec;
+    -webkit-box-shadow: 3px 10px 72px -18px rgba(51,129,232,0.35);
+-moz-box-shadow: 3px 10px 72px -18px rgba(51,129,232,0.35);
+box-shadow: 3px 10px 72px -18px rgba(51,129,232,0.35);
+transition: .2s linear all;
+}
+#buttonInput:hover
+{
+    background: #296fcc;
+}
+
+.userText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+  background-color: #2f80ec;
+  padding: 10px;
+  border-radius: 10px 0px 10px 10px;
+}
+
+.botText {
+    color: #333;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: white;
+    -webkit-box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+-moz-box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+box-shadow: 3px 10px 27px -18px rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
